@@ -1,7 +1,22 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-
+.btn:hover{
+  cursor:pointer;
+  background-color: #282c34;
+  color:white;
+  transition: 0.6s;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

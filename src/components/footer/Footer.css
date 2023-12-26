@@ -1,0 +1,143 @@
+.footer{
+    height:330px;
+    background-color: black;
+   color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+padding: 30px 50px;
+
+}
+.footer-top div{
+    margin-top: 30px;
+display: flex;
+align-items: center;
+
+}
+.footer-top{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.left-footer a{
+    color:white;
+    text-decoration: none;
+}
+.footer-top .left-footer, .center-footer, .right-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:280px;
+}
+.footer div p, .footer div a{
+    margin-top: 20px;
+}
+.footer .left-footer a:hover{
+    color:rgb(196, 20, 20);
+}
+
+.right-footer a{
+    color:white;
+    text-decoration: none;
+}
+.right-footer a:hover{
+    color:rgb(196, 20, 20);
+    
+}
+
+
+.footer-socials{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+   
+}
+
+.twitter{
+    width:30px;
+    height:20px;
+    }
+
+@media screen and (max-width:835px){
+    .footer{
+        height:375px;
+    }
+   
+    .left-footer a{
+       font-size: 17px;
+    }
+    .footer-top .left-footer, .center-footer, .right-footer {
+        font-size: 16px;
+        width:235px;
+    }
+    .footer-socials{
+        display: flex;
+        flex-direction: column;
+
+        height: 150px;
+     }
+}
+
+
+@media screen and (max-width:430px){
+    .footer{
+        height:343px;
+      
+    padding: 5px 25px;
+    
+    }
+     .footer-top .left-footer, .center-footer, .right-footer {
+         font-size: 0.7rem;
+         width:180px;
+     }
+     .footer-top div{
+        margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+     .footer-socials{
+        display: flex;
+        flex-direction: column;
+
+        height: 120px;
+     }
+    
+     .footer-socials img{ 
+      width:40px;
+      height: 35px;
+     }
+}
+
+
+@media screen and (max-width:325px){
+    .footer{
+        height:380px;
+      
+    padding: 35px 15px;
+}
+   .left-footer a, .center-footer, .right-footer {
+        font-size: 0.7rem;
+        width:100px;
+   }
+  
+    .footer-top div{
+        margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    .footer-top > h1{
+        font-size: 1.2rem;
+    }
+    
+     .copyright{
+        font-size: 0.8rem;
+     }
+}

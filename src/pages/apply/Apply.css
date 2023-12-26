@@ -1,0 +1,207 @@
+.Apply{
+    width:70dw;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+}
+.form-content form{
+display:flex;
+flex-direction: column;
+border:none;
+align-items: flex-start;
+border-radius:12px;
+background-color:white;
+box-shadow: -8px 8px 13px rgb(43, 42, 42);
+width:680px;
+gap:10px;
+padding: 40px 0px 10px 60px; 
+
+}
+.agree{
+    font-size:0.7rem;
+}
+.apply-contents{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width:90%;
+    height: 94%;
+    padding: 10px 0 0 160px;
+    z-index: 5;
+    font-size: 16px;
+}
+.form-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.form-content form input{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #cfcdcd;
+    border: none;
+    outline: none;
+    opacity: 0.7;
+    padding: 0 15px;
+}
+.form-img{
+    z-index: 1;
+}
+.form-img img{
+    width: 380px;
+    height: 480px;
+    margin: 25px 0 0 0 ;
+}
+
+.apply-ellipse{
+    position:absolute;
+    bottom: 0;
+    z-index:-1;
+    right: 0;
+    
+}
+form .btn{
+    align-self:center;
+    width:75px;
+    padding:3px 0px;
+    font-size:0.8rem;
+   
+}
+
+
+
+@media screen and (max-width:835px){
+
+.form-content form{
+        display:flex;
+        flex-direction: column;
+        border:none;
+        align-items: flex-start;
+        border-radius:12px;
+        background-color:white;
+        box-shadow: -8px 8px 13px rgb(43, 42, 42);
+        width:720px;
+        gap:10px;
+        padding: 40px 0px 10px 35px; 
+        
+        } 
+        
+.apply-contents{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width:100%;
+    height: 94%;
+    padding: 0px 0 0 60px;
+    z-index: 8;
+    
+}
+.form-content form lable{
+    width:180px
+}
+.form-content form input{
+    width: 200px;
+    height: 25px;
+    
+}
+.form-img{
+    z-index: 1;
+}
+.form-img img{
+    width: 360px;
+    height: 460px;
+    margin: 25px 0 0 0 ;
+}
+}
+
+
+@media screen and (max-width:430px){
+    .form-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .agree{
+        font-size:0.6rem;
+        width:240px
+    }
+    .form-content form{
+        display:flex;
+        flex-direction: column;
+        border:none;
+        align-items: flex-start;
+        border-radius:12px;
+        background-color:white;
+        box-shadow: -8px 8px 13px rgb(43, 42, 42);
+        width:365px;
+        gap:10px;
+        padding: 30px 0px 25px 25px; 
+        
+        } 
+        
+.apply-contents{
+    width:100%;
+    height: 80%;
+    padding: 0px 0 0 40px;  
+    gap:35px ;
+}
+
+.form-content form input{
+    width: 180px;    
+}
+
+.form-img img{
+    width: 320px;
+    height: 430px;
+    margin: 25px 0 0 0 ;
+}
+}
+
+
+@media screen and (max-width:392px){
+    .form-content form{
+        width:300px;
+        gap:10px;
+        padding: 40px 0px 10px 25px; 
+        
+        } 
+        
+
+
+    .form-content form input{
+        width: 190px;    
+    }
+}
+
+
+@media screen and (max-width:325px){
+    .form-content form{
+        width:260px;
+        gap:10px;
+        padding: 40px 20px 10px 25px; 
+        
+        } 
+        .agree{
+            font-size:0.6rem;
+            width:200px
+        }
+        .form-content form textarea{
+width:180px
+        }
+        .form-content form lable{
+            font-size: 0.8rem;
+        }
+    .form-content form input{
+        width: 160px;    
+    }
+    .apply-contents{
+        width:100%;
+        height: 80%;
+        padding: 0px 0 0 20px;  
+        gap:35px ;
+    }
+}

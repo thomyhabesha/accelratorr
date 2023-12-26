@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+
+.aboutcomp{
+    display:flex;
+    flex-direction:column;
+    background-color: #ffffff;
+    padding: 100px 125px;
+    
+gap:80px;
+
+}
+.about-top, .about-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about-top img, .about-bottom img{
+width: 500px;
+height: 315px;
+}
+.about-bottom_text, .about-top_text{
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    gap:17px;
+    text-align: start;
+    align-items: flex-start;
+    font-size:0.9rem;
+}
+.about-bottom_text h1, .about-top_text h1{
+    font-family: 'Prata', serif;
+
+}
+ .btn{
+    background-color:orangered;
+    width:130px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    color:white;
+    padding-top:2px;
+    text-decoration:none;
+    display:flex;
+    justify-content:center;
+align-items:center;
+}
+
+.btn:hover{
+    cursor:pointer;
+    background-color: #282c34;
+    color:white;
+    transition: 0.6s ;
+  }
+
+
+  .about-wiggle{
+    width: fit-content;
+    position: absolute;
+    top:45rem;
+    left:-60px;
+    
+
+}
+.about-wiggle img{
+    opacity:0.14;
+    width:270px;
+    height: 340px;
+}
+
+  
+
+@media screen and (max-width:835px){
+    .aboutcomp{
+        display:flex;
+        flex-direction:column;
+        background-color: #ffffff;
+        padding: 80px 65px;
+       
+    }
+
+    .about-top img, .about-bottom img{
+        width: 300px;
+        height: 215px;
+        }
+        .about-bottom_text, .about-top_text{
+            width:340px;
+            
+        }
+  }
+
+  @media screen and (max-width:430px){
+    .about-top, .about-bottom{
+        display: flex;
+        flex-direction:column;
+        gap:50px
+        
+    }
+    .about-wiggle{
+
+        top:53rem;
+        left:-50px;
+    
+    }
+    .about-wiggle img{
+        
+        width:240px;
+        height: 270px;
+    }
+  }
+
+
+  
+@media screen and (max-width:365px){
+    .about-top img, .about-bottom img{
+        width: 240px;
+        height: 215px;
+        }
+        .about-bottom_text, .about-top_text{
+            width:265px;
+            
+        }
+        
+.about-bottom_text, .about-top_text{
+    font-size: 0.8rem;
+}
+}

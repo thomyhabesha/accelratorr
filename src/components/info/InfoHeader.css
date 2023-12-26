@@ -1,0 +1,33 @@
+.infoheader{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-left:75px;
+    color:white;
+}
+.info-header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 33%;
+    width:690px;
+    text-align: left;
+}
+.info-header-text h1 span{
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+}
+
+
+
+
+@media screen and (max-width:430px){
+    .info-header-text{
+        width:400px;
+        font-size:0.9rem
+    }
+    .infoheader{
+        padding:0  35px;
+    }
+}
